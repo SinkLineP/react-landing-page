@@ -1,25 +1,29 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import HeroBlock from './components/HeroBlock/HeroBlock';
+import gcLogo from './assets/GC_logo.svg';
+import ITNLogo from './assets/ITN_logo.svg';
+import shidLogo from './assets/shid-emozhl-logo.svg';
+// import heroBg from './assets/hero-bg.jpg';
 
 function App() {
+  const partners = [
+    shidLogo,
+    ITNLogo,
+    gcLogo
+  ]
+  const links = [
+    "Основные факты",
+    "Индекс качества воздуха",
+    "Политика по уменьшению загрязнений"
+  ]
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <HeroBlock title="Качество атмосферного воздуха и здоровье"
+                 logos={partners}
+                //  bgImg={heroBg}
+                 links={links}/>
+    </>
   );
 }
 
