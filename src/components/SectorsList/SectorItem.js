@@ -7,11 +7,6 @@ const SectorItem = ({sector, number}) => {
 		setDirectionSwitched(number % 3 === 0);
 		setToolTipShowing(newValue);
 	}
-	// const toggleToolTip = () => {
-	// 	setToolTipShowing(
-	// 		!isToolTipShowing
-	// 	)
-	// }
 	
 	return (
 		<div className="sectors-list-item"
