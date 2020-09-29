@@ -2,6 +2,7 @@
   "name": "air-quality",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sinklinep.github.io/react-landing-page",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -12,9 +13,8 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3",
-    "homepage": "https://sinklinep.github.io/react-landing-page"
-  },
+    "react-scripts": "3.4.3"
+  },  
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
