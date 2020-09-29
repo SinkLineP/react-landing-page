@@ -6,19 +6,31 @@ import SectorsList from "./components/SectorsList/SectorsList";
 import gcLogo from './assets/GC_logo.svg';
 import ITNLogo from './assets/ITN_logo.svg';
 import shidLogo from './assets/shid_emozhl_logo.svg';
+import AirQuality from './components/AirQuality/AirQuality';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
-  const partners = [
-    shidLogo,
-    ITNLogo,
-    gcLogo
-  ];
+	const partners = [
+		shidLogo,
+		ITNLogo,
+		gcLogo
+	];
 
-  const links = [
-    "Основные факты",
-    "Индекс качества воздуха",
-    "Политика по уменьшению загрязнений"
-  ];
+  	const navLinks = [
+		{
+			title: "Основные факты",
+			href: "#facts"
+		},
+		{
+			title: "Индекс качества воздуха",
+			href: "#quality"
+		},
+		{
+			title: "Политика по уменьшению загрязнений",
+			href: "#politics"
+		}
+	];
 
   const factsSlides = [
 		{
@@ -82,17 +94,21 @@ function App() {
 		},
 	];
 
+	const author = "Поповым Артёмом";
+	const designer = "Поповым Артёмом";
   
 
   return ( 
     <> 
-      <HeroBlock title="Качество атмосферного воздуха и здоровье"
-                logos={partners}
-                links={links}/>
-      <Facts title="Основные факты" slides={factsSlides}/>
-      <SectorsList title="Политика по уменьшению загрязнений"
-                  subtitle="Есть много примеров успешной политики по уменьшению загрязнения воздуха в таких секторах, как транспорт, городское планирование, энергетика и промышленность:"
-                  items={sectors}/>
+        <HeroBlock title="Качество атмосферного воздуха и здоровье"
+								 logos={partners}
+								 links={navLinks}/>
+		<Facts title="Основные факты" slides={factsSlides}/>
+		<AirQuality/>
+		<SectorsList title="Политика по уменьшению загрязнений"
+									subtitle="Есть много примеров успешной политики по уменьшению загрязнения воздуха в таких секторах, как транспорт, городское планирование, энергетика и промышленность:"
+									items={sectors}/>
+		<Footer links={navLinks} partners={partners} author={author} designer={designer}/>
     </>
   );
 };

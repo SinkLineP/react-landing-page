@@ -30,10 +30,12 @@ const Facts = ({title, slides}) => {
 						return `<span class="facts-pagination-bullet ${className}"></span>`;
 					},
 				}}
+				
 				spaceBetween={40}
 				slidesPerView={3}
-				slidesPerGroup={3}
 				centeredSlides={true}
+				loop={true}
+				loopFillGroupWithBlank={true}
 			>
 				{factsSlides}
 			</Swiper>
