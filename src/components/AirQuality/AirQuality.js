@@ -3,7 +3,7 @@ import mapboxgl from 'mapbox-gl';
 import './AirQuality.scss';
 import 'mapbox-gl/dist/mapbox-gl.css';
 
-mapboxgl.accessToken = 'pk.eyJ1IjoieWFtbnlrIiwiYSI6ImNrZmxhZjZscjAwb2gycm54aWo2bGJvZnEifQ.BbYutmem-GZtYciYeMln1A';
+mapboxgl.accessToken = 'pk.eyJ1Ijoic2lua2xpbmUiLCJhIjoiY2tmb3ljdjc0MDVxODMxbXQ0b25oZ3J2cSJ9.M-K2IshZBr-L1K9ck3fkKw';
 
 const AirQuality = () => {
 	const mapContainer = useRef(null);
