@@ -1,23 +1,46 @@
-.air-q {
-  padding: 50px 0;
+.maps {
+  padding: 40px 0;
 
   &-title {
+    margin-bottom: 22px;
+
     text-align: center;
     font-weight: normal;
-    font-size: 35px;
-    line-height: 41px;
+    font-size: 27px;
+    line-height: 32px;
     color: #fff;
+
+    @media (min-width: 576px) {
+      margin-bottom: 42px;
+
+      font-size: 35px;
+      line-height: 41px;
+    }
   }
 
   &-map {
-    height: 560px;
-    margin: 42px 0;
+    height: 656px;
+    margin-bottom: 18px;
+
+    @media (min-width: 576px) {
+      height: 560px;
+      margin-bottom: 42px;
+    }
   }
 
   &-text {
     font-weight: normal;
-    font-size: 23px;
-    line-height: 27px;
+    font-size: 17px;
+    line-height: 20px;
     color: #fff;
+
+    @media (min-width: 576px) {
+      font-size: 23px;
+      line-height: 27px;
+    }
+  }
+
+  & .mapboxgl-canvas .mapboxgl-canvas-container {
+    height: 100%;
   }
 }
