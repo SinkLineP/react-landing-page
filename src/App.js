@@ -1,20 +1,21 @@
 import React from 'react';
 import './App.scss';
-import HeroBlock from "./components/HeroBlock/HeroBlock";
+import Header from "./components/header/header";
 import Facts from './components/Facts/Facts';
 import SectorsList from "./components/SectorsList/SectorsList";
-import gcLogo from './assets/GC_logo.svg';
-import ITNLogo from './assets/ITN_logo.svg';
-import shidLogo from './assets/shid_emozhl_logo.svg';
 import AirQuality from './components/AirQuality/AirQuality';
 import Footer from './components/Footer/Footer';
+
+import logos1 from './assets/logos/logos_1.svg';
+import logos2 from './assets/logos/logos_2.svg';
+import logos3 from './assets/logos/logos_3.svg';
 
 
 function App() {
 	const partners = [
-		shidLogo,
-		ITNLogo,
-		gcLogo
+		logos1,
+		logos2,
+		logos3
 	];
 
   	const navLinks = [
@@ -100,9 +101,10 @@ function App() {
 
   return ( 
     <> 
-        <HeroBlock title="Качество атмосферного воздуха и здоровье"
-								 logos={partners}
-								 links={navLinks}/>
+        <Header
+          title="Качество атмосферного воздуха и здоровье"
+          logos={partners}
+          links={navLinks}/>
 		<Facts title="Основные факты" slides={factsSlides}/>
 		<AirQuality/>
 		<SectorsList title="Политика по уменьшению загрязнений"
