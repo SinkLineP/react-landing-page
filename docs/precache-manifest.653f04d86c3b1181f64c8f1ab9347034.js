@@ -1,39 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5d0c9fcfd7cc20b6ee48d2984002c3e9",
+    "revision": "f691679572c323f5533840c3e8f51dab",
     "url": "/react-landing-page/index.html"
   },
   {
-    "revision": "aa566de41c325cb81925",
-    "url": "/react-landing-page/static/css/2.8936a6e9.chunk.css"
+    "revision": "23bbc447f3766690bf4a",
+    "url": "/react-landing-page/static/css/2.e6551feb.chunk.css"
   },
   {
-    "revision": "d0de5650dc5c0d6171ef",
-    "url": "/react-landing-page/static/css/main.e1168af9.chunk.css"
+    "revision": "ff6e3cb6cbbb80f88c1c",
+    "url": "/react-landing-page/static/css/main.487845a3.chunk.css"
   },
   {
-    "revision": "aa566de41c325cb81925",
-    "url": "/react-landing-page/static/js/2.8e061a87.chunk.js"
+    "revision": "23bbc447f3766690bf4a",
+    "url": "/react-landing-page/static/js/2.67ea6b8c.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/react-landing-page/static/js/2.8e061a87.chunk.js.LICENSE.txt"
+    "revision": "5eeaef24d459591afeaec501ac57b571",
+    "url": "/react-landing-page/static/js/2.67ea6b8c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "d0de5650dc5c0d6171ef",
-    "url": "/react-landing-page/static/js/main.9ebbd6e3.chunk.js"
+    "revision": "ff6e3cb6cbbb80f88c1c",
+    "url": "/react-landing-page/static/js/main.ce049ae9.chunk.js"
   },
   {
     "revision": "44bc5688745e393929c6",
     "url": "/react-landing-page/static/js/runtime-main.a40f56c1.js"
-  },
-  {
-    "revision": "0662d9de8af86fb66060a046fbafe1b5",
-    "url": "/react-landing-page/static/media/GC_logo.0662d9de.svg"
-  },
-  {
-    "revision": "2f311a05a79fb86cee6148d658aa8336",
-    "url": "/react-landing-page/static/media/ITN_logo.2f311a05.svg"
   },
   {
     "revision": "43f9dac62ffb9209e823b91b7504c5ec",
@@ -52,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-landing-page/static/media/industry.5ec44869.jpg"
   },
   {
+    "revision": "0662d9de8af86fb66060a046fbafe1b5",
+    "url": "/react-landing-page/static/media/logos_1.0662d9de.svg"
+  },
+  {
+    "revision": "2f311a05a79fb86cee6148d658aa8336",
+    "url": "/react-landing-page/static/media/logos_2.2f311a05.svg"
+  },
+  {
     "revision": "341a487c2bb1cbed9179faa73d89b343",
-    "url": "/react-landing-page/static/media/shid_emozhl_logo.341a487c.svg"
+    "url": "/react-landing-page/static/media/logos_3.341a487c.svg"
   },
   {
     "revision": "f8f67844654cd9fc78dd57834ecfed6c",
